@@ -22,10 +22,10 @@ def run_systemic_accessibility_analysis():
     
     # UP Critical Facilities Layers
     facilities = {
-        'Police': 'UP_Critical_Facilities_Police_Stations',
-        'Fire': 'UP_Critical_Facilities_Fire_Stations',
-        'Hospital': 'UP_Critical_Facilities_Hospitals',
-        'School': 'UP_Critical_Facilities_Schools'
+        'Police': './critical_services/UP_Critical_Facilities_Police_Stations',
+        'Fire': './critical_services/UP_Critical_Facilities_Fire_Stations',
+        'Hospital': './critical_services/UP_Critical_Facilities_Hospitals',
+        'School': './critical_services/UP_Critical_Facilities_Schools'
     }
     
     output_csv = "systemic_development_priority.csv"

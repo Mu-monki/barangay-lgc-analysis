@@ -2,7 +2,7 @@ import geopandas as gpd
 
 def fetch_and_process_schools():
     url = "https://webgis-static.up.edu.ph/api/critical_facilities/schools.geojson"
-    output_gpkg = "UP_Critical_Facilities_Schools.gpkg"
+    output_gpkg = "./critical_services/UP_Critical_Facilities_Schools.gpkg"
     
     print("Reading live GeoJSON from UP WebGIS...")
     # Read the data directly from the URL into a spatial dataframe
@@ -19,7 +19,7 @@ def fetch_and_process_schools():
 
 def fetch_and_process_hospitals():
     url = "https://webgis-static.up.edu.ph/api/critical_facilities/hospitals.geojson"
-    output_gpkg = "UP_Critical_Facilities_Hospitals.gpkg"
+    output_gpkg = "./critical_services/UP_Critical_Facilities_Hospitals.gpkg"
     
     print("Reading live GeoJSON from UP WebGIS...")
     # Read the data directly from the URL into a spatial dataframe
@@ -36,7 +36,7 @@ def fetch_and_process_hospitals():
 
 def fetch_and_process_police_stations():
     url = "https://webgis-static.up.edu.ph/api/critical_facilities/police_station.geojson"
-    output_gpkg = "UP_Critical_Facilities_Police_Stations.gpkg"
+    output_gpkg = "./critical_services/UP_Critical_Facilities_Police_Stations.gpkg"
     
     print("Reading live GeoJSON from UP WebGIS...")
     # Read the data directly from the URL into a spatial dataframe
@@ -53,7 +53,7 @@ def fetch_and_process_police_stations():
 
 def fetch_and_process_fire_stations():
     url = "https://webgis-static.up.edu.ph/api/critical_facilities/fire_station.geojson"
-    output_gpkg = "UP_Critical_Facilities_Fire_Stations.gpkg"
+    output_gpkg = "./critical_services/UP_Critical_Facilities_Fire_Stations.gpkg"
     
     print("Reading live GeoJSON from UP WebGIS...")
     # Read the data directly from the URL into a spatial dataframe

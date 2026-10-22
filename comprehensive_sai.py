@@ -19,10 +19,10 @@ def run_comprehensive_accessibility_analysis():
     bgy_layer = "ph_barangay_lgc_tagged_fixed"
     
     facilities = {
-        'Police': 'UP_Critical_Facilities_Police_Stations',
-        'Fire': 'UP_Critical_Facilities_Fire_Stations',
-        'Hospital': 'UP_Critical_Facilities_Hospitals',
-        'School': 'UP_Critical_Facilities_Schools'
+        'Police': './critical_services/UP_Critical_Facilities_Police_Stations',
+        'Fire': './critical_services/UP_Critical_Facilities_Fire_Stations',
+        'Hospital': './critical_services/UP_Critical_Facilities_Hospitals',
+        'School': './critical_services/UP_Critical_Facilities_Schools'
     }
     
     output_csv = "comprehensive_systemic_accessibility.csv"
